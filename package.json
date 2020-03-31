@@ -2,7 +2,7 @@
   "name": "modern_portfolio",
   "version": "1.0.0",
   "description": "Responsive portfolio website",
-  "main": "index.js",
+  "main": "index.php",
   "homepage": "https://bradtraversy.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
