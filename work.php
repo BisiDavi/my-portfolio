@@ -19,18 +19,7 @@
         <a href="#" class="btn-dark">
           <i class="fab fa-github"></i> Github
         </a>
-      </div>
-      <div class="item">
-        <a href="http://sport-harvoxx.herokuapp.com/" target="_blank">
-          <img src="img/projects/Sport Academy.png" target="_blank" alt="Sport Academy Project">
-        </a>
-        <a href="http://sport-harvoxx.herokuapp.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Sport Academy
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
+      </div>     
       <div class="item">
         <a href="http://bisidavi.github.io/Gad" target="_blank">
           <img src="img/projects/Gad_logistics.png" target="_blank" alt="A resource firm that seamlessly 
@@ -49,6 +38,17 @@
         </a>
         <a href="https://fast-todoapp.netlify.com/?_ga=2.31729853.2067224375.1585528949-1669043167.1585528949" target="_blank" class="btn-light">
           <i class="fas fa-eye"></i> Todo App
+        </a>
+        <a href="#" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+       <div class="item">
+        <a href="#" target="_blank">
+          <img src="img/projects/Sport Academy.png" target="_blank" alt="Sport Academy Project">
+        </a>
+        <a href="#" target="_blank" class="btn-light">
+          <i class="fas fa-eye"></i> Sport Academy (ongoing project)
         </a>
         <a href="#" class="btn-dark">
           <i class="fab fa-github"></i> Github
