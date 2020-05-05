@@ -21,6 +21,17 @@
         </a>
       </div>     
       <div class="item">
+        <a href="https://sport-soccer.herokuapp.com" target="_blank">
+          <img src="img/projects/Sport Academy.png" target="_blank" alt="Sport Academy Project">
+        </a>
+        <a href="https://sport-soccer.herokuapp.com" target="_blank" class="btn-light">
+          <i class="fas fa-eye"></i> Sport Academy
+        </a>
+        <a href="#" class="btn-dark">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      <div class="item">
         <a href="http://bisidavi.github.io/Gad" target="_blank">
           <img src="img/projects/Gad_logistics.png" target="_blank" alt="A resource firm that seamlessly 
           link professionals to clients">
@@ -43,17 +54,7 @@
           <i class="fab fa-github"></i> Github
         </a>
       </div>
-       <div class="item">
-        <a href="#" target="_blank">
-          <img src="img/projects/Sport Academy.png" target="_blank" alt="Sport Academy Project">
-        </a>
-        <a href="#" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Sport Academy (ongoing project)
-        </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
+       
       <div class="item">
         <a href="#!">
           <img src="img/projects/project4.jpg" alt="Project">
@@ -68,11 +69,5 @@
     </div>
   </main>
 
-  <footer id="main-footer">
-    Copyright &copy; 2020
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
-</html>
+  <?php  require './includes/footer.php'  ?>
+  

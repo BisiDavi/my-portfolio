@@ -187,14 +187,7 @@ body {
     width: 55%;
   }
 }
-@-moz-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 65%;
-  }
-}
+
 @keyframes progress-html {
   0% {
     width: 0%;
