@@ -195,15 +195,6 @@ body {
   }
 }
 
-@-webkit-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 65%;
-  }
-}
 
 @-moz-keyframes progress-html {
   0% {
@@ -242,16 +233,6 @@ body {
 
   100% {
     width: 55%;
-  }
-}
-
-@-moz-keyframes progress-angular {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 65%;
   }
 }
 
