@@ -2,7 +2,7 @@
   "name": "modern_portfolio",
   "version": "1.0.0",
   "description": "Responsive portfolio website",
-  "main": "index.php",  
+  "main": "server.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
@@ -10,7 +10,15 @@
   "author": "Olubisi David",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.5.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
+    "mongoose": "^5.10.3",
+    "node-sass": "^4.9.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
   }
 }

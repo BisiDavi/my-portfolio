@@ -1,5 +1,4 @@
-<?php require './includes/header.php' ?>
-
+<%- include('../includes/header'); -%>
   <main id="about">
     <h1 class="lg-heading">
       About
@@ -9,7 +8,7 @@
       Let me tell you a few things...
     </h2>
     <div class="about-info">
-      <img src="img/portrait.png" style="width:300px;height:300px;"  alt="Olubisi David" class="bio-image">
+      <img src="../assets/img/portrait.png" style="width:300px;height:300px;"  alt="Olubisi David" class="bio-image">
 
       <div class="bio">
         <h3 class="text-secondary">BIO</h3>
@@ -24,7 +23,7 @@
       <div class="job job-2">
         <h2>Skill Set</h2>
         <!-- <h6>Front End Developer</h6> -->
-        <?php include('./includes/skills.php'); ?>
+        <%- include('../includes/skills'); -%>
       </div>
 
       <div class="job job-3">
@@ -39,4 +38,4 @@
     </div>
   </main>
 
-<?php require('./includes/footer.php'); ?>
+<%- include('../includes/footer'); -%>

@@ -1,4 +1,4 @@
-<?php require './includes/header.php' ?>
+<%- include('../includes/header'); -%>
 <main id="home">
   <div id="particles-js"></div>
   <div class="home-content">
@@ -28,10 +28,10 @@
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script>
   particlesJS.load('particles-js',
-    './includes/particles.json', function(){
+    '../includes/particles.json', function(){
       console.log('particles.json loaded...');
     });
 </script>    
-<script src="js/main.js"></script>
+<script src="../assets/js/main.js"></script>
   </body>
 </html>

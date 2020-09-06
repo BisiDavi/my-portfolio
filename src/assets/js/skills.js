@@ -1,15 +1,15 @@
-var lang = {
+const lang = {
   "html": "100%",
   "css": "80%",
   "javascript": "70%",
   "php": "80%",
 };
 
-var multiply = 4;
+const multiply = 2;
 
-$.each(lang, function (language, percent) {
+each(lang, function (language, percent) {
 
-  var delay = 700;
+  var delay = 100;
 
   setTimeout(function () {
     $('#' + language + '-percent').html(percent);
