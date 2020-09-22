@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add nodemon -D
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add helmet jsonwebtoken morgan cors bcrypt
 
 PATH: 
-  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\DOVIE\bin;C:\Python38\Scripts;C:\Python38;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\chocolatey\bin;C:\Users\DOVIE\AppData\Local\Microsoft\WindowsApps;C:\Users\DOVIE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DOVIE\.dotnet\tools;C:\Users\DOVIE\AppData\Roaming\npm;C:\Users\DOVIE\AppData\Local\Yarn\bin
+  C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Users\DOVIE\AppData\Local\Microsoft\WindowsApps;C:\Users\DOVIE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DOVIE\.dotnet\tools;C:\Users\DOVIE\AppData\Roaming\npm;C:\Users\DOVIE\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.22.5
@@ -14,15 +14,20 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: connect ETIMEDOUT 104.16.26.35:443
-      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (internal/errors.js:610:14)
+      at TLSSocket.onConnectEnd (_tls_wrap.js:1546:19)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
 
 npm manifest: 
   {
     "name": "modern_portfolio",
     "version": "1.0.0",
     "description": "Responsive portfolio website",
-    "main": "index.php",
+    "main": "server.js",
     "scripts": {
       "sass": "node-sass -w scss/ -o dist/css/ --recursive",
       "deploy": "gh-pages -d dist"

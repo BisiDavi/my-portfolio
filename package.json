@@ -10,15 +10,25 @@
   "author": "Olubisi David",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.5.2",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "gh-pages": "^1.2.0",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.3",
+    "morgan": "^1.10.0",
     "node-sass": "^4.9.2",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
   }
 }
